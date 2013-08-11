@@ -1,0 +1,9 @@
+<resources>
+    <string-array name="wrapper_colours">
+        <item>Black</item>
+        <item>Red</item>
+        <item>Grey</item>
+        <item>Orange</item>
+        <item>White</item>
+</string-array>
+    </resources>

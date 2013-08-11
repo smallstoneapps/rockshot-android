@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RockShot</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_screenshot">Take Screenshot</string>
+    <string name="action_save">Save Screenshot</string>
+    <string name="action_share">Share Screenshot</string>
+    <string name="message_no_uuid">NO UUID HAS BEEN SET</string>
+    <string name="action_set_uuid">Set app UUID</string>
+    <string name="dialog_uuid_title">Set App UUID</string>
+    <string name="dialog_uuid_message">Enter the UUID for the app you want to take screenshots
+        of.
+    </string>
+    <string name="message_not_connected">PEBBLE NOT CONNECTED</string>
+    <string name="message_screenshot_in_progress">SCREENSHOT IN PROGRESS</string>
+    <string name="message_screenshot_ready">READY TO SCREENSHOT</string>
+
+</resources>
