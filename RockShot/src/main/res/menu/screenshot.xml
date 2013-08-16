@@ -4,7 +4,6 @@
           android:title="@string/action_share"
           android:orderInCategory="10"
           android:showAsAction="always"
-          android:enabled="false"
           android:icon="@android:drawable/ic_menu_share" />
 
     <item android:id="@+id/action_settings"

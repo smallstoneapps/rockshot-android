@@ -81,7 +81,6 @@ public class ScreenshotGenerator {
         BitmapFactory.Options bfo = new BitmapFactory.Options();
         bfo.inScaled = false;
         Bitmap wrapper = BitmapFactory.decodeResource(resources, wrapper_map.get(color), bfo);
-        Log.d(TAG, String.valueOf(wrapper.getWidth()) + ", " + String.valueOf(wrapper.getHeight()));
         sw_canvas.drawBitmap(wrapper, new Rect(0, 0, wrapper.getWidth(), wrapper.getHeight()), new RectF(0f, 0f, WRAPPED_WIDTH, WRAPPED_HEIGHT), null);
         sw_canvas.drawBitmap(this.screenshot, (float)WRAP_OFFSET_X, (float)WRAP_OFFSET_Y, null);
         if (overlay) {

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:padding="16dp">
+
+    <EditText
+            android:layout_width="160sp"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_uuid_1"
+            android:inputType="textNoSuggestions"
+            android:hint="xxxxxxxx"
+            android:textSize="24sp"/>
+
+    <EditText
+            android:layout_width="80sp"
+            android:layout_height="wrap_content"
+            android:inputType="textNoSuggestions"
+            android:id="@+id/et_uuid_2"
+            android:hint="xxxx"
+            android:textSize="24sp"/>
+
+    <EditText
+            android:layout_width="80sp"
+            android:layout_height="wrap_content"
+            android:inputType="textNoSuggestions"
+            android:id="@+id/et_uuid_3"
+            android:hint="xxxx"
+            android:textSize="24sp"/>
+
+    <EditText
+            android:layout_width="80sp"
+            android:layout_height="wrap_content"
+            android:inputType="textNoSuggestions"
+            android:id="@+id/et_uuid_4"
+            android:hint="xxxx"
+            android:textSize="24sp"/>
+
+    <EditText
+            android:layout_width="240sp"
+            android:layout_height="wrap_content"
+            android:inputType="textNoSuggestions"
+            android:id="@+id/et_uuid_5"
+            android:hint="xxxxxxxxxxxxx"
+            android:textSize="24sp"/>
+
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Clear UUID"
+            android:id="@+id/btn_clear"
+            android:layout_marginTop="32dp"/>
+
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Load httpebble UUID"
+            android:id="@+id/btn_httpebble"/>
+
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Load httpebble Prefix"
+            android:id="@+id/btn_httpebble_prefix"/>
+</LinearLayout>

@@ -11,10 +11,11 @@
     <string name="action_set_uuid">Set app UUID</string>
     <string name="dialog_uuid_title">Set App UUID</string>
     <string name="dialog_uuid_message">Enter the UUID for the app you want to take screenshots
-        of.
-    </string>
+        of.</string>
     <string name="message_not_connected">PEBBLE NOT CONNECTED</string>
     <string name="message_screenshot_in_progress">SCREENSHOT IN PROGRESS</string>
     <string name="message_screenshot_ready">READY TO SCREENSHOT</string>
+    <string name="title_activity_activity_setuuid">Set UUID</string>
+    <string name="action_save_uuid">Save UUID</string>
 
 </resources>
